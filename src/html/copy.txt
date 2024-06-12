@@ -1,0 +1,28 @@
+<div class="lecture-homework">
+                <label for="">Homework Assignments</label>
+                <ul>
+                    <li><span>Number of Assignments: </span>10-11</li>
+                    <li><span>Content: </span>Cisco Network Essentials (Chapters + Exams)</li>
+                    <li><span>Details: </span><a href="https://www.netacad.com/">Cisco NetAcad</a></li>
+                </ul>
+            </div>
+            <div class="lab-homework">
+                <label>Lab Homework</label>
+                <ul>
+                    <li><span>Number of Assignments: </span>10-11</li>
+                    <li><span>Content: </span>At the end of each lab chapter (a whole week)</li>
+                    <li><span>Details: </span><a href="https://serazu.com/web/product/view.html?id=1049">Serazu Product</a></li>
+                </ul>
+            </div>
+
+             <div class="submission">
+                <label>Submission</label>
+                <ul>
+                    <li><span>Platform: </span>Google Drive - '362003-Fall24'</li>
+                    <li><span>Late Submission Penalty: </span>30%</li>
+                    <li><span>File Naming Convention: </span><ul>
+                        <li><span>Group Homework: </span>'GroupID_HWID' (e.g. , 'Group1_HW1.docx')</li>
+                        <li><span>Group Lab Homework: </span>'GroupID_LabHWID' (e.g. , 'Group1_LabHW1.docx')</li>
+                    </ul></li>
+                </ul>
+            </div>

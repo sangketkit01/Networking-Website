@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    color: #232323;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #F2F4F6;
+    margin-bottom: 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cover {
+    width: 100%;
+    height: 500px;
+}
+
+.subject h2 {
+    margin: 40px 0 0 40px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#line {
+    height: 1px;
+    width: 900px;
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 40px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.project-list div:not(:last-child){
+    margin-right: 50px;
+}
+
+.project img{
+    width: 250px;
+    height: 300px;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.project label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+.project p{
+    margin-top: 5px;
+    font-size: 17px;
+    max-width: 220px;
+}
+
+#explore,
+#project-explore {
+    display: inline-block;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+#explore:hover,
+#project-explore:hover {
+    color: #6d6868;
+}
+
+#project-explore {
+    margin-top: 10px;
+}
+
+footer{
+    transform: translateY(50px);
+    height: 200px;
+    background-color: #274546;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer label , footer label a{
+    color: #F2F4F6;
+    text-decoration: none;
+}
+
+footer label a{
+    font-weight: bold;
+}
+
+footer label a:hover{
+    text-decoration: underline;
+}
+
+#footer-label{
+    margin-top: 20px;
+}
+
+.about{
+   display: flex;
+   flex-direction: row;
+}
+
+.about a:not(:last-child){
+    margin-right: 50px;
+}
+
+

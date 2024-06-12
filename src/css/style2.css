@@ -1,0 +1,294 @@
+
+
+#schedule,#lecture-schedule,#lab-schedule,#project-milestone,#grading,#extra-credit,#news{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.lecture , .lab , .homework , .project-milestone{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+}
+
+table{
+    margin-top: 30px;
+}
+
+table , tr , th ,td{
+    padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.study-time , .grading , .news , .extra-credit{
+    display: flex;
+    justify-content: center;
+}
+
+.study-time table{
+    font-size: 20px;
+}
+
+
+.lecture td:last-child{
+    width: 29%;
+}
+
+.lecture tr:has(td:last-child:not(:empty)){
+    background-color: rgb(251, 251, 111)
+}
+
+
+.lecture td{
+    max-width: 385px;
+}
+
+.lecture table{
+    font-size: 16px;
+}
+
+.lab td:nth-child(2){
+    max-width: 500px;
+}
+
+#lecture-note , #lab-note , #project-milestone-note{
+    margin: 20px 0 0 0;
+    font-size: 18px;
+    color: red;
+    max-width: 800px;
+}
+
+#lecture-note span , #lab-note span , #project-milestone-note span{
+    font-weight: bold;
+}
+
+#lab-note a{
+    color: blue;
+}
+
+#individual{
+    color: red;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.lab tr:nth-child(11) , .lab tr:nth-child(17) , .lab tr:nth-child(18) , .lecture tr:nth-child(9),.lecture tr:nth-child(19){
+    background-color: rgb(196, 196, 196);
+}
+
+
+.detail{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #F2F4F6;
+}
+
+.detail div{
+     background-color: rgb(24, 24, 24);
+     padding: 20px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     width: 250px;
+}
+
+.detail div label{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.detail div span{
+    font-weight: bold;
+}
+
+.detail div:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+.homework div label , .homework div p , .homework div span , .li{
+    color: #F2F4F6;
+}
+
+.homework div a{
+    color: rgb(78, 78, 252);
+}
+
+
+
+#homework-note{
+    margin-left: 22px;
+    font-size: 18px;
+    color: red;
+}
+
+#homework-note span{
+    font-weight: bold;
+}
+
+.networking-tool{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-self: center;
+    align-self: center;
+    margin-left: 300px;
+}
+
+.header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.project-idea-label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-idea .line{
+    margin-top: 5px;
+    width: 150px;
+    height: 1px;
+    background-color: rgb(161, 161, 161);
+}
+
+.project-ideas-list ul{
+    margin-top: 20px;
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.project-ideas-list ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.project-ideas-list ul li a:hover{
+    text-decoration: underline;
+}
+
+.project-ideas-list2 ul li{
+    font-size: 17px;
+}
+
+.project-ideas-list2 ul:first-child{
+    margin-top: 20px;
+}
+
+.project-milestone td:nth-child(2){
+    max-width: 500px;
+}
+
+.grading-note{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.grading-note label{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.grading-note ul{
+    max-width: 650px;
+    margin-left: 20px;
+}
+
+.grading-note span{
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+}
+
+.news td:last-child{
+    max-width: 450px;
+}
+
+.news td a{
+    color: blue;
+    text-decoration: none;
+}
+
+.news td a:hover{
+    text-decoration: underline;
+}
+
+
+#semester-focus{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+
+#explore,#project-explore{
+    display: inline-block;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+#explore:hover,#project-explore:hover{
+    color: #6d6868;
+}
+
+#project-explore{
+    margin-top: 10px;
+}
+
+footer{
+    transform: translateY(50px);
+    height: 200px;
+    background-color: #274546;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer label , footer label a{
+    color: #F2F4F6;
+    text-decoration: none;
+}
+
+footer label a{
+    font-weight: bold;
+}
+
+
+footer label a:hover{
+    text-decoration: underline;
+}
+
+#footer-label{
+    margin-top: 20px;
+}
+
+.about{
+   display: flex;
+   flex-direction: row;
+}
+
+.about a:not(:last-child){
+    margin-right: 50px;
+}
+
+

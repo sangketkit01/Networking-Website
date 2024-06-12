@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    color: #232323;
+    font-family: "Roboto";
+}
+
+body{
+    background-color: #F2F4F6;
+    margin-bottom: 50px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cover{
+    width: 100%;
+    height: 500px;
+}
+
+.subject h2{
+    margin: 40px 0 0 40px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.subject p{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 80%;
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subject span{
+    font-weight: bold;
+}
+
+#line{
+    height: 1px;
+    width: 900px;
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.instructor{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructor label{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.teacher{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.teacher div{
+    padding: 20px 20px 10px 20px;
+    border: 1px solid rgb(103, 101, 101);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #222222;
+}
+
+.teacher div:not(:last-child){
+    margin-right: 50px;
+}
+
+
+.teacher div p{
+    margin-top: 10px;
+    color: #FBF8F3;
+}
+
+.teacher div div{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-top: 20px;
+    border: none;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(55, 120, 240);
+    cursor: pointer;
+    transform: translateX(25px);
+}
+
+.button:hover{
+    background-color: rgb(32, 98, 222);
+}
+
+#email , #more{
+    width: 45px;
+    height: 45px;
+    background-image: url("/another/email.png");
+    background-size: 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    border: none;
+}
+
+#email{
+    background-image: url("/another/email.png");
+}
+
+#more{
+    background-image: url("/another/more.png");
+}
+
+
+.teacher div button:not(:last-child){
+    margin-right: 10px;
+}
+
+
+.teacher-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.teacher-info div{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid rgb(103, 101, 101);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: rgb(55, 120, 240);
+    height: auto;
+}
+
+.teacher-info div:not(:last-child){
+    margin-right: 20px;
+}
+
+.office{
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.office img{
+    margin-top: 20px;
+}
+
+.office p{
+    margin-top: 30px;
+    color: #F2F4F6;
+}
+
+.office a{
+    margin-bottom: 20px;
+    color: #F2F4F6;
+}
+
+.office p , .office a{
+    justify-content: start;
+    align-self: start;
+}
+
+#cisco , #huawei{
+    margin-top: 30px;
+    margin-bottom: 0;
+    align-self: center;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    background-color: #000000;
+    color: #efeeee;
+    border: none;
+}
+
+#cisco:hover , #huawei:hover{
+    background-color: #363636;
+}
+
+#ta-label{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ta{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ta-info{
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(103, 101, 101);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    color: #232323;
+}
+
+.ta-info:not(:last-child){
+    margin-right: 50px;
+}
+
+#ta-img , #name{
+    align-self: center;
+}
+
+#name , #ta-room{
+    margin-top: 15px;
+}
+
+.ta-info button{
+    margin-top: 20px;
+    margin-left: auto;
+    transform: translateX(0);
+}
+
+#office-hour,#ta-room{
+    align-items: start;
+    text-align: start;
+    font-size: 16px;
+}
+
+.ta-info , .office , .drChakchai , .drPhet {
+    box-shadow: 1px 1px 5px black;
+}
+
+
+

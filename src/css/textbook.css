@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    color: #232323;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #F2F4F6;
+    margin-bottom: 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cover {
+    width: 100%;
+    height: 500px;
+}
+
+.subject h2 {
+    margin: 40px 0 0 40px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#line {
+    height: 1px;
+    width: 900px;
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.textbook{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    height: auto;
+}
+
+.textbook label{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.main-book{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    flex-wrap: wrap;
+}
+
+.main-book img{
+    width: 250px;
+    height: 300px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0) ;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+
+.book label{
+    font-size: 16px;
+    max-width: 250px;
+}
+
+.book p{
+    margin: 10px auto 15px 0;
+    max-width: 250px;
+}
+
+.book button{
+    margin-top: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(55, 120, 240);
+    color: #efeeee;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+    transform: translateY(10px);
+}
+
+.book button:hover{
+    background-color: rgb(32, 98, 222);
+}
+
+#explore,#project-explore {
+    display: inline-block;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+#explore:hover,#project-explore:hover {
+    color: #6d6868;
+}
+
+#project-explore {
+    margin-top: 10px;
+}
+
+footer{
+    transform: translateY(50px);
+    height: 200px;
+    background-color: #274546;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer label , footer label a{
+    color: #F2F4F6;
+    text-decoration: none;
+}
+
+footer label a{
+    font-weight: bold;
+}
+
+footer label a:hover{
+    text-decoration: underline;
+}
+
+#footer-label{
+    margin-top: 20px;
+}
+
+.about{
+   display: flex;
+   flex-direction: row;
+}
+
+.about a:not(:last-child){
+    margin-right: 50px;
+}
